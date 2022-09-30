@@ -115,3 +115,137 @@
     margin: 5px 15px; 
     cursor:pointer; 
 }
+
+.input{
+    background-color: #e7e5e4;
+    width: 40vw; 
+    border-radius: 10px;
+    border: none; 
+    padding: 0px 10px; 
+    height: 34px; 
+}
+
+.icon2{
+    margin: 5px 5px 5px 150px; 
+    cursor: pointer;
+}
+
+.icon2:hover{
+    transition: 0.5s; 
+    transform: scale(1.2); 
+}
+
+.icon3{
+    width: 40px; 
+    height: 40px; 
+    border-radius: 100%; 
+    margin: 5px 0px 5px 20px; 
+}
+
+.head{
+    margin: 5px 0px 5px 20px; 
+    font-size: 24px; 
+}
+
+.hulu{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    margin-left: 20px; 
+}
+
+.one{
+    font-size: 25px; 
+    font-weight: bold; 
+}
+
+.six{
+    display: flex; 
+}
+
+hr{
+    opacity: 0.2;
+}
+
+.main2{
+    height: 65vh; 
+    width: 60vw; 
+    margin: 10px 30px; 
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.project{
+    background-color: white;
+    width: 350px; 
+    height: 210px; 
+    border-radius: 10px;
+}
+
+.inside{
+    display: flex; 
+    flex-direction: column; 
+    margin: 15px 15px; 
+}
+
+.paragraph{
+    margin-top: 10px; 
+}
+
+.git{
+    margin-left: 230px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.project::before{
+    content: "";
+    position: absolute; 
+    width: 350px; 
+    height: 210px; 
+    background: #fde047; 
+    border-radius: 10px; 
+    transition: 0.5s ease-in-out; 
+}
+
+.project:hover::before{
+    width: 6px; 
+}
+
+.aside{
+    margin-left: 60vw; 
+    margin-top: -66vh; 
+    width: 18vw; 
+    height: 65vh; 
+    background-color: white;
+    border-radius: 8px; 
+}
+
+.heading{
+    display: flex;
+}
+
+.trend{
+    margin-left: 49vw; 
+}
+
+.seven img{
+    width: 50px; 
+    height: 50px; 
+    border-radius: 100%;
+    margin: 10px 10px; 
+}
+
+.seven{
+    display: flex; 
+    align-items: center; 
+    left: 0%; 
+    padding: 10px 0px;
+}
+
+.four{
+    opacity: 0.4;
+}
